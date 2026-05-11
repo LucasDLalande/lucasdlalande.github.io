@@ -1,0 +1,28 @@
+project:
+  type: website
+
+website:
+  title: "Lucas Lalande"
+  navbar:
+    left:
+      - href: home.qmd
+        text: Home
+      - href: cv.qmd
+        text: CV
+      - href: publications.qmd
+        text: Publications
+      - href: projects.qmd
+        text: Projects
+      - href: software.qmd
+        text: Software
+      - href: about.qmd
+        text: About
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+    css: styles.css
+    toc: true
+

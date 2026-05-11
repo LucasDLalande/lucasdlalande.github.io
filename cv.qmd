@@ -1,0 +1,9 @@
+---
+title: "CV"
+---
+
+Here is my CV, which you can download here.
+
+<a href="CV.pdf" class="btn btn-primary" target="_blank">
+  Download CV
+</a>
