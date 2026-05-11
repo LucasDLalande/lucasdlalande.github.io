@@ -25,6 +25,27 @@
     "href": "publications.html",
     "title": "Publications",
     "section": "",
-    "text": "Below, you’ll find a list of my publications. Feel free to also check out my Google Scholar, GitHub or ORCID profiles.\nIf you can’t access any of the articles, don’t hesitate to write me to get a copy!\n\nPublished articles\nPerez et al. (2026)\nLalande et al. (2024)\nLalande et al. (2023)\nLalande et al. (2022)\n\n\nPh.D. thesis\nLalande (2023)\n\n\nSoftwares\nLalande (2026)\nLalande (2026)\n\n\n\n\n\nReferences\n\nStress, Health and Senescence in long-lived mammal, the roe deer (Capreolus Capreolus). Lalande, L. D. 2023. [PhD thesis].\n\n\nconwaysGoL: An easy-to-handle Conway’s Game of Life simulator for R. Lalande, L. D. 2026. DOI: 10.5281/zenodo.18290212.\n\n\nSelectools: A facilitating model selection procedure. Lalande, L. D. 2026. DOI: 10.5281/zenodo.18289845.\n\n\nEarly-life glucocorticoids accelerate lymphocyte count senescence in roe deer. Lalande, L. D., Bourgoin, G., Carbillet, J., Cheynel, L., Debias, F., Ferté, H., Gaillard, J.-M., Garcia, R., Lemaître, J.-F., Palme, R., Pellerin, M., Peroz, C., Rey, B., Vuarin, P., & Gilot-Fromont, E. 2024. General and Comparative Endocrinology, 357, 114595. DOI: 10.1016/j.ygcen.2024.114595.\n\n\nGlucocorticoids negatively relate to body mass on the short-term in a free-ranging ungulate. Lalande, L. D., Gilot-Fromont, E., Carbillet, J., Débias, F., Duhayer, J., Gaillard, J.-M., Lemaître, J.-F., Palme, R., Pardonnet, S., Pellerin, M., Rey, B., & Vuarin, P. 2023. Oikos, 2023(10), e09769. DOI: 10.1111/oik.09769.\n\n\nSex-specific body mass ageing trajectories in adult Asian elephants. Lalande, L. D., Lummaa, V., Aung, H. H., Htut, W., Nyein, U. K., Berger, V., & Briga, M. 2022. Journal of Evolutionary Biology, 35(5), 752–762. DOI: 10.1111/jeb.14008.\n\n\nPossible exposure to unidentified coronaviruses in roe deer (Capreolus Capreolus) populations suggested by SARS-CoV-2 serological investigation in France. Perez, G., Lalande, L. D., Legros, V., Kodjo, A., Verheyden, H., Bourret, V., Cebe, N., Chaval, Y., Revelli, P., Pellerin, M., Lemaitre, J.-F., Peroz, C., Rey, B., Débias, F., Garcia, R., Bourgoin, G., & Gilot-Fromont, E. 2026. Royal Society Open Science, 13(1), 251477. DOI: 10.1098/rsos.251477."
+    "text": "Below, you’ll find a list of my publications. Feel free to also check out my Google Scholar, GitHub or ORCID profiles.\nIf you can’t access any of the articles, don’t hesitate to contact me to get a copy!"
+  },
+  {
+    "objectID": "publications.html#published-articles",
+    "href": "publications.html#published-articles",
+    "title": "Publications",
+    "section": "Published articles",
+    "text": "Published articles\nPerez, G., Lalande, L. D., Legros, V., Kodjo, A., Verheyden, H., Bourret, V., Cebe, N., Chaval, Y., Revelli, P., Pellerin, M., Lemaitre, J.-F., Peroz, C., Rey, B., Débias, F., Garcia, R., Bourgoin, G., & Gilot-Fromont, E. (2026). Possible exposure to unidentified coronaviruses in roe deer (Capreolus capreolus) populations suggested by SARS-CoV-2 serological investigation in France. Royal Society Open Science, 13(1), 251477.\nLalande, L. D., Bourgoin, G., Carbillet, J., Cheynel, L., Debias, F., Ferté, H., Gaillard, J.-M., Garcia, R., Lemaître, J.-F., Palme, R., Pellerin, M., Peroz, C., Rey, B., Vuarin, P., & Gilot-Fromont, E. (2024). Early-life glucocorticoids accelerate lymphocyte count senescence in roe deer. General and Comparative Endocrinology, 357, 114595.\nLalande, L. D., Gilot-Fromont, E., Carbillet, J., Débias, F., Duhayer, J., Gaillard, J.-M., Lemaître, J.-F., Palme, R., Pardonnet, S., Pellerin, M., Rey, B., & Vuarin, P. (2023). Glucocorticoids negatively relate to body mass on the short-term in a free-ranging ungulate. Oikos, 2023(10), e09769.\nLalande, L. D., Lummaa, V., Aung, H. H., Htut, W., Nyein, U. K., Berger, V., & Briga, M. (2022). Sex-specific body mass ageing trajectories in adult Asian elephants. Journal of Evolutionary Biology, 35(5), 752‑762."
+  },
+  {
+    "objectID": "publications.html#ph.d.-thesis",
+    "href": "publications.html#ph.d.-thesis",
+    "title": "Publications",
+    "section": "Ph.D. thesis",
+    "text": "Ph.D. thesis\nLalande, L. D. (2023). Stress, Health and Senescence in long-lived mammal, the roe deer (Capreolus capreolus). Ph.D. Thesis, Université Claude Bernard - Lyon I."
+  },
+  {
+    "objectID": "publications.html#softwares",
+    "href": "publications.html#softwares",
+    "title": "Publications",
+    "section": "Softwares",
+    "text": "Softwares\nLalande, L. D. (2026). selectools: A facilitating model selection procedure (Version 0.2.1) [R package]. https://doi.org/10.5281/zenodo.18289845\nLalande, L. D. (2026). conwaysGoL: An easy-to-handle Conway’s Game of Life simulator for R (Version 0.1.1) [R package]. https://doi.org/10.5281/zenodo.18290212"
   }
 ]
