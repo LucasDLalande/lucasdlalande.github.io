@@ -1,0 +1,44 @@
+[
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "CV",
+    "section": "",
+    "text": "Here is my CV, which you can download here.\n Download CV"
+  },
+  {
+    "objectID": "home.html",
+    "href": "home.html",
+    "title": "Home",
+    "section": "",
+    "text": "I am an ecophysiologist, interested in how physiology mediates the relationships between the environment and ecological and evolutionary processes in wild animals. My research is based on longitudinal data resulting from field observations and manipulations.\nDuring my previous experiences, I developed a strong interest towards data analysis and computational approaches. You will learn more about some personal projects exploring such approach on this website.\nCurrently, I am looking for a postdoctoral position with the aim of investigating the relationships between proximate and ultimate processes by using mechanistic and computational approaches.\nLearn more about my work on my research page!\nYou can also see my publications or softwares."
+  },
+  {
+    "objectID": "home.html#here-you-will-find-everything-about-my-passion-for-research",
+    "href": "home.html#here-you-will-find-everything-about-my-passion-for-research",
+    "title": "Home",
+    "section": "",
+    "text": "I am an ecophysiologist, interested in how physiology mediates the relationships between the environment and ecological and evolutionary processes in wild animals. My research is based on longitudinal data resulting from field observations and manipulations.\nDuring my previous experiences, I developed a strong interest towards data analysis and computational approaches. You will learn more about some personal projects exploring such approach on this website.\nCurrently, I am looking for a postdoctoral position with the aim of investigating the relationships between proximate and ultimate processes by using mechanistic and computational approaches.\nLearn more about my work on my research page!\nYou can also see my publications or softwares."
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see https://quarto.org."
+  },
+  {
+    "objectID": "publications.html#quarto",
+    "href": "publications.html#quarto",
+    "title": "Publications",
+    "section": "",
+    "text": "Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see https://quarto.org."
+  },
+  {
+    "objectID": "publications.html#running-code",
+    "href": "publications.html#running-code",
+    "title": "Publications",
+    "section": "Running Code",
+    "text": "Running Code\nWhen you click the Render button a document will be generated that includes both content and the output of embedded code. You can embed code like this:\n\n1 + 1\n\n[1] 2\n\n\nYou can add options to executable code like this\n\n\n[1] 4\n\n\nThe echo: false option disables the printing of code (only output is displayed)."
+  }
+]
