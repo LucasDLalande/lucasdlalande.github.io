@@ -181,25 +181,9 @@
   </macro>
   <macro name="date-sort">
     <!-- Sort items by issue date as printed -->
-    <choose>
       <if match="any" type="article article-journal book chapter entry entry-dictionary entry-encyclopedia dataset figure graphic manuscript map musical_score patent report review review-book thesis">
         <date date-parts="year" form="numeric" variable="issued"/>
       </if>
-      <else-if type="paper-conference">
-        <!-- Determine whether published and serial or monographic -->
-        <choose>
-          <if match="any" variable="collection-editor compiler editor editorial-director issue page supplement-number volume">
-            <date date-parts="year" form="numeric" variable="issued"/>
-          </if>
-          <else>
-            <text macro="date-issued-leading-zeros"/>
-          </else>
-        </choose>
-      </else-if>
-      <else>
-        <text macro="date-issued-leading-zeros"/>
-      </else>
-    </choose>
   </macro>
   <macro name="date-sort-group">
     <!-- Sorts items with and without dates:
@@ -222,11 +206,6 @@
   <!-- Date elements -->
   <macro name="date-issued-year">
     <group delimiter=" ">
-      <choose>
-        <if is-uncertain-date="issued">
-          <text form="short" term="circa"/>
-        </if>
-      </choose>
       <date date-parts="year" form="numeric" variable="issued"/>
     </group>
   </macro>
