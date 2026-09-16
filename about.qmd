@@ -1,4 +1,40 @@
 ---
-title: "about"
-editor: visual
+title: ""
+about:
+  id: hero-heading
+  template: jolla
+  image: assets/images/photo_profile.jpeg
+  links:
+    - icon: envelope
+      text: Mail
+      href: mailto:lalande.luke@gmail.com
+    - icon: github
+      text: Github
+      href: https://github.com/LucasDLalande
+    - icon: bookmark
+      text: Google Scholar
+      href: https://scholar.google.com/citations?user=wRv_T7sAAAAJ&hl=en
+    - icon: music-note-beamed
+      text: Bed Market Linktree
+      href: https://linktr.ee/bedmarket
 ---
+<nav aria-label="Breadcrumb" class="breadcrumb" style="margin-top: -14px;">
+  <ol>
+    <li><a href="/index.qmd">Home</a></li>
+    <li><span aria-current="page">About</span></li>
+  </ol>
+</nav>
+
+::: {#hero-heading}
+<center>
+If you're looking for your **next postdoctoral fellow** or want more information about my cursus or my work, **feel free to contact me** in english or french, or check my socials!
+</center>
+:::
+<br>
+<br>
+
+## Credits
+All images have been drawn by **Laya Gil**, except for the Asian elephant (**Daniel Lalande**) and the cortisol molecule (Lucas Lalande).
+
+## License
+The [source code](https://github.com/LucasDLalande/lucasdlalande.github.io){.text-link} for this website is under the **MIT License**. All content (text, images) is under the **CC-BY 4.0 license**, except music which remains all rights reserved **&copy;Bed Market**. 

@@ -1,0 +1,112 @@
+---
+title: ""
+about:
+  id: hero-heading
+  template: jolla
+  image: ../assets/images/bm_logo.jpg
+  links:
+    - icon: music-note-beamed
+      text: Bed Market Linktree
+      href: https://linktr.ee/bedmarket
+---
+<nav aria-label="Breadcrumb" class="breadcrumb" style="margin-top: -14px;">
+  <ol>
+    <li><a href="/index.qmd">Home</a></li>
+    <li><span aria-current="page">Bed Market</span></li>
+  </ol>
+</nav>
+
+<div class="column-margin">
+<div class="song-list">
+<img class="song-image-cover" src="../assets/images/cover_album.png"/>
+<small class="color-text">Album</small>
+<h5 class="color-text"> Last Call for First Impression</h5>
+<img class="pastille" src="../assets/images/bm_logo.jpg"/><b class="color-text"> Bed Market</b><b> &#xB7;</b><span class="opacity-text"> 2025 <b>&#xB7;</b> 9 tracks, 34 min 40 s</span>
+
+<table style="width:100%">
+<thead>
+<tr>
+<th style="width:10%; text-align:center;"><b>#</b></th><th><b>Title</b></th><th scope="col" style="text-align:center;"><b><i class="fa-regular fa-clock"></i></b></th>
+</tr>
+</thead>
+<tbody>
+<tr class="click-song" onclick="playSongAtIndex(0)">
+  <td class="number-play" style="text-align:center;"><span class="track-number">1</span><i class="fa-solid fa-play play-symbol"></i><i class="fa-solid fa-pause pause-symbol"></i></td>
+  <td><b class="track-title">Intro (I. I'm afraid)</b><br><small class="track-artist">Bed Market</small></td>
+  <td class="track-time" style="text-align:center;">0:49</td></tr>
+<tr class="click-song" onclick="playSongAtIndex(1)">
+  <td class="number-play" style="text-align:center;"><span class="track-number">2</span><i class="fa-solid fa-play play-symbol"></i><i class="fa-solid fa-pause pause-symbol"></i></td>
+  <td><b class="track-title">Change</b><br><small class="track-artist">Bed Market</small></td>
+  <td class="track-time" style="text-align:center;">3:46</td></tr>
+<tr class="click-song" onclick="playSongAtIndex(2)">
+  <td class="number-play" style="text-align:center;"><span class="track-number">3</span><i class="fa-solid fa-play play-symbol"></i><i class="fa-solid fa-pause pause-symbol"></i></td>
+  <td><b class="track-title">Isolation Cake</b><br><small class="track-artist">Bed Market</small></td>
+  <td class="track-time" style="text-align:center;">2:58</td></tr>
+<tr class="click-song" onclick="playSongAtIndex(3)">
+  <td class="number-play" style="text-align:center;"><span class="track-number">4</span><i class="fa-solid fa-play play-symbol"></i><i class="fa-solid fa-pause pause-symbol"></i></td>
+  <td><b class="track-title">Keep Falling</b><br><small class="track-artist">Bed Market</small></td>
+  <td class="track-time" style="text-align:center;">2:35</td></tr>
+<tr class="click-song" onclick="playSongAtIndex(4)">
+  <td class="number-play" style="text-align:center;"><span class="track-number">5</span><i class="fa-solid fa-play play-symbol"></i><i class="fa-solid fa-pause pause-symbol"></i></td>
+  <td><b class="track-title">Interlude (II. Farewell)</b><br><small class="track-artist">Bed Market</small></td>
+  <td class="track-time" style="text-align:center;">1:36</td></tr>
+<tr class="click-song" onclick="playSongAtIndex(5)">
+  <td class="number-play" style="text-align:center;"><span class="track-number">6</span><i class="fa-solid fa-play play-symbol"></i><i class="fa-solid fa-pause pause-symbol"></i></td>
+  <td><b class="track-title">Velvet Sky</b><br><small class="track-artist">Bed Market</small></td>
+  <td class="track-time" style="text-align:center;">4:50</td></tr>
+<tr class="click-song" onclick="playSongAtIndex(6)">
+  <td class="number-play" style="text-align:center;"><span class="track-number">7</span><i class="fa-solid fa-play play-symbol"></i><i class="fa-solid fa-pause pause-symbol"></i></td>
+  <td><b class="track-title">Sweet Memories</b><br><small class="track-artist">Bed Market</small></td>
+  <td class="track-time" style="text-align:center;">4:12</td></tr>
+<tr class="click-song" onclick="playSongAtIndex(7)">
+  <td class="number-play" style="text-align:center;"><span class="track-number">8</span><i class="fa-solid fa-play play-symbol"></i><i class="fa-solid fa-pause pause-symbol"></i></td>
+  <td><b class="track-title">Shortcut</b><br><small class="track-artist">Bed Market</small></td>
+  <td class="track-time" style="text-align:center;">3:36</td></tr>
+<tr class="click-song" onclick="playSongAtIndex(8)">
+  <td class="number-play" style="text-align:center;"><span class="track-number">9</span><i class="fa-solid fa-play play-symbol"></i><i class="fa-solid fa-pause pause-symbol"></i></td>
+  <td><b class="track-title">Blown Away (III. - VII.)</b><br><small class="track-artist">Bed Market</small></td>
+  <td class="track-time" style="text-align:center;">10:06</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="player-card">
+<div id="music-player">
+
+  <div class="song-header">
+  <img id="song-image" src="../assets/images/cover_album.png"/>
+  <div id="song-info">
+  <div id="song-name"><span>Song</span></div>
+  <div id="song-artist">Artist</div>
+  </div>
+  </div>
+  
+  <div id="music-buttons">
+  <i id="shuffle-song" class="fa-solid fa-shuffle fa-2x"></i>
+  <i id="prev-song" class="fa-solid fa-backward-step fa-2x"></i>
+  <i id="playpause-song" class="fa-solid fa-circle-play fa-3x"></i>
+  <i id="next-song" class="fa-solid fa-forward-step fa-2x"></i>
+  <i id="repeat-song" class="fa-solid fa-repeat fa-2x"></i>
+  </div>
+  
+  <input id="slider-song" type="range">
+
+</div>
+</div>
+</div>
+
+:::{#hero-heading}
+<center>**Bed Market** is an indie rock band from Lyon, France. We released our first album '**Last Call for First Impression**' in 2025 as a way of saying goodbye to all the moments we spent together making these songs.</center>
+
+<center>Do not hesitate to have a listen through the **player I've coded on the right** or to check our **music videos below**. Enjoy!<br><br></center>
+:::
+
+<br>
+<br>
+
+{{< video https://www.youtube.com/watch?v=aT84yvqK8RQ&list=RDaT84yvqK8RQ&start_radio=1 
+    title="Bed Market - Sweet Memories">}}
+
+{{< video https://www.youtube.com/watch?v=3TF8g-IXwJc 
+    title="Bed Market - Isolation Cake">}}
+

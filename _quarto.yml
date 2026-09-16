@@ -1,28 +1,72 @@
 project:
   type: website
+  title: "Lucas Lalande"
+  preview: 
+    browser: true
+  resources:
+    - assets/
 
 website:
-  title: "Lucas Lalande"
+  back-to-top-navigation: true
+  page-footer:
+    left: "Copyright 2026, Lucas Lalande | [Source code](https://github.com/LucasDLalande/lucasdlalande.github.io): [MIT license](https://opensource.org/license/mit)."
+    center:
+      - icon: github
+        href: https://github.com/LucasDLalande
+      - icon: envelope
+        href: mailto:lalande.luke@gmail.com
+      - icon: bookmark
+        href: https://scholar.google.com/citations?user=wRv_T7sAAAAJ&hl=en
+      - icon: music-note-beamed
+        href: https://linktr.ee/bedmarket
+    right: "Text, images: [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en) | Music: All rights reserved &copy;Bed Market." 
   navbar:
-    left:
-      - href: home.qmd
-        text: Home
-      - href: cv.qmd
+    search: true
+    tools:
+      - icon: github
+        href: https://github.com/LucasDLalande
+      - icon: envelope
+        href: mailto:lalande.luke@gmail.com
+      - icon: bookmark
+        href: https://scholar.google.com/citations?user=wRv_T7sAAAAJ&hl=en
+      - icon: music-note-beamed
+        href: https://linktr.ee/bedmarket
+    right:
+      - href: CV/CV.qmd
         text: CV
-      - href: publications.qmd
+      - href: Publications/Publications.qmd
         text: Publications
-      - href: projects.qmd
-        text: Projects
-      - href: software.qmd
-        text: Software
+      - text: Projects
+        href: Projects/Projects.qmd
+      - text: Softwares
+        href: Softwares/Softwares.qmd
+      - text: Music
+        href: Music/Music.qmd
       - href: about.qmd
         text: About
 
 format:
   html:
+    include-after-body: 
+      - includes/theme-toggle.html
+      - includes/scripts.html
+      - includes/fontawesome.html
+    html-math-method: katex
+    raw-html: true
     theme:
       - cosmo
       - brand
-    css: styles.css
-    toc: true
+    css: 
+      - styles/styles.css
+      - styles/theme_toggle.css
+      - styles/links.css
+      - styles/buttons.css
+      - styles/package_cards.css
+      - styles/tooltip.css
+      - styles/cover.css
+      - styles/images-theme.css
+      - styles/music-player.css
+    toc: false
+
+    
 

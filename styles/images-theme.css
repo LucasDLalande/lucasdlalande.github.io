@@ -1,0 +1,12 @@
+/* manages light and dark theme images */
+img.dark-image {
+  display: none;
+}
+
+body.dark-mode img.dark-image {
+  display: block;
+}
+
+body.dark-mode img.light-image {
+  display: none;
+}

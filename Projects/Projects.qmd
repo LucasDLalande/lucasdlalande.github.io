@@ -1,0 +1,87 @@
+---
+title: ""
+---
+:::{.column-page}
+<nav aria-label="Breadcrumb" class="breadcrumb">
+  <ol>
+    <li><a href="/index.qmd">Home</a></li>
+    <li><span aria-current="page">Projects</span></li>
+  </ol>
+</nav>
+
+# Research projects
+
+Everything I have been doing this past few years!
+
+### Stress, Health and Senescence in roe deer
+:::
+:::{.column-page-left}
+::::: cover-container
+<div class="cover-pic-wrapper">
+![](../assets/images/glucocorticoids_black.png){.cover-pic-left .light-image}
+![](../assets/images/glucocorticoids_white.png){.cover-pic-left .dark-image}</div>
+::: cover-text-stress
+<p style="text-align:right;">
+<big>During my Ph.D, I have explored the relationships between chronic stress, as measured by glucocorticoid metabolites, and the senescence of health- and fitness-related traits in two populations of roe deer, followed longitudinally by capture-mark-recapture programs.<br><br></big>
+</p>
+<p style="text-align:center;">
+[**Find out more**](../Projects/Stress.qmd){.button}
+</p>
+:::
+:::::
+:::
+:::{.column-page}
+### SARS-CoV-2 in deer species
+:::
+:::{.column-page-left}
+::::: cover-container
+<div class="cover-pic-wrapper">
+![](../assets/images/covid_white.png){.cover-pic-right .light-image}
+![](../assets/images/covid-dark.png){.cover-pic-right .dark-image}</div>
+::: cover-text-covid
+<p style="text-align:left;">
+<big>Can wild deer species in France act as a reservoir for a future COVID-19 pandemic? It seems not, but let's learn more!<br><br></big>
+</p>
+<p style="text-align:center;">
+[**Check this out**](../Projects/Covid.qmd){.button}
+</p>
+:::
+:::::
+:::
+:::{.column-page}
+### Asian elephants ageing
+:::
+:::{.column-page-left}
+::::: cover-container
+<div class="cover-pic-wrapper">
+![](../assets/images/elephant_black.png){.cover-pic-left height="600px" .light-image}
+![](../assets/images/elephant_white.png){.cover-pic-left height="600px" .dark-image}</div>
+::: cover-text-eleph
+<p style="text-align:right;">
+<big>In 2020, during the pandemic, I exploited the unique database of the [Myanmar Timber Elephant Project](https://elephant-project.science/){.text-link}. I described sex-specific body mass senescence in adult Asian elephants (*Elephas maximus*). 
+<br>I also reviewed the relationships between social environments and patterns of senescence in mammals.<br><br> </big>
+</p>
+<p style="text-align:center;">
+[**Further details**](../Projects/Elephants.qmd){.button}
+</p>
+:::
+:::::
+:::
+:::{.column-page}
+### Ecology of fear in gammarids
+:::
+:::{.column-page-left}
+::::: cover-container
+<div class="cover-pic-wrapper">
+![](../assets/images/gammarids_white.png){.cover-pic-right .light-image}
+![](../assets/images/gammarids_dark.png){.cover-pic-right .dark-image}</div>
+::: cover-text-covid
+<p style="text-align:left;">
+<big>Ecology of fear considers predator-induced stresses as important drivers of demographic strategies, behavioral and physiological changes. But what does it mean for gammarids?<br><br></big>
+</p>
+<p style="text-align:center;">
+[**More here**](../Projects/Gammarids.qmd){.button}
+</p>
+:::
+:::::
+:::

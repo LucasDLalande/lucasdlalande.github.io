@@ -1,0 +1,63 @@
+/* TOOLTIPS */
+/* tooltip container setting */
+.tooltip-container {
+  overflow: visible !important; /* tooltip is visible on top of margins */
+  position: relative; /* reference container for absolutely positioned children: absolute children are positioned relatively to this container */
+}
+
+.tooltip-content {
+  position: fixed; /* positioned relative to browser viewport */
+
+  top: 50%; /* tooltip position */
+  left: 45%; /* tooltip position */
+
+  transform: translate(-50%, -48%) scale(0.98); /* tooltip has a slight zoom and move effect when appearing */
+
+  opacity: 0; /* initially transparent */
+  visibility: hidden; /* hidden visually but still present for transitions */
+  pointer-events: none; /* tooltip does not intercept mouse events while hidden */
+
+  z-index: 100000 !important; /* stacking order: image displayed above overlay and text */
+
+  background: var(--market-background-card); /* bg color */
+
+  border: 1px solid var(--market-secondary); /* border color*/
+  border-radius: 8px; /* radius of border corners */
+
+  padding: 15px; /* spacing from borders */
+
+  max-width: 900px; /* max size */
+  max-height: 80vh; /* max size */
+
+  overflow: auto; /* scrollbars appear if content exceeds max dimensions */
+
+  box-shadow: 1px 1px 1px 1px var(--market-text); /* shadows */
+
+  transition:
+    opacity 0.25s ease,
+    transform 0.25s ease,
+    visibility 0.25s ease; /* transition parameters */
+    
+  backdrop-filter: blur(20px); /* blurs background behind tooltip */
+}
+
+/* tooltip container for a small text line, instead of a card */
+.tooltip-containershort {
+  position: relative; /* reference container for absolutely positioned children: absolute children are positioned relatively to this container */
+  display: inline-block; /* limits to the length of the text, not the whole line */
+  height: 1em; /* forces height to the the height of one text line*/
+  vertical-align: baseline;
+  overflow: visible !important; /* tooltip passes over elements without affecting height*/
+}
+
+/* visible on hover */
+.tooltip-container:hover .tooltip-content, 
+.tooltip-containershort:hover .tooltip-content {
+
+  opacity: 1; /* tooltip container and content appear */
+  visibility: visible; /* tooltip container and content appear */
+
+  transform: translate(-50%, -50%) scale(1); /* tooltip container and content are slightly zoomed in and moved a bit to create movement */
+
+  pointer-events: auto; 
+}

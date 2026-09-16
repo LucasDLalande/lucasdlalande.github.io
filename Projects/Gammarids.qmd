@@ -1,0 +1,33 @@
+---
+title: ""
+---
+:::{.column-page}
+<nav aria-label="Breadcrumb" class="breadcrumb">
+  <ol>
+    <li><a href="/index.qmd">Home</a></li>
+    <li><a href="/Projects/Projects.qmd">Projects</a></li>
+    <li><span aria-current="page">Ecology of fear</span></li>
+  </ol>
+</nav>
+
+<h1 style="text-align:center;">
+Ecology of fear in gammarids
+</h1>
+
+<h3 style="text-align: center;">
+Assessing the behavioural and reproductive response of gammarids to perceived predation pressure
+<span style="font-weight:normal">
+<p style="color:grey; text-align:center;">
+2019</p></span></h3>
+<center>
+![](../assets/images/gammarids_white.png){width="50%" .light-image}</center>
+<center>![](../assets/images/gammarids_dark.png){width="50%" .dark-image}</center>
+
+In 2019, during my MSc, I lived my first research experience at the Biogeoscience lab (UMR6282), Université Bourgogne-Franche-Comté. 
+
+Ecology of fear considers predator-induced stresses as important drivers of demographic strategies, behavioral and physiological changes. We collected gammarids (*Gammarus fossarum*) from 15 populations with different predation pressure as measured by fish biomass. We conducted lab experiment to compare antipredator (refuge use, phototaxis) and reproductive behaviours between populations and found that antipredator behaviours increased with predation pressure (lower phototaxis). It suggests that even in absence of threats, local predation risk triggers anxiety-like states.
+
+We also assessed the flexibility of antipredator behaviours by exposing individuals from low or high risk populations to predation signals of increasing concentrations. We found that refuge use was higher when exposed to predation signals compared to control in populations with low and high risk. Also, we evidenced that individuals from low-risk predation did not behave differently according to the predation signal concentration, while individuals from high risk predation responded increasingly with predation signal concentrations.
+
+This work resulted in my first [poster presentation](../assets/pdfs/Ecology of fear - Gammarids.pdf){.text-link} in an international conference. 
+:::

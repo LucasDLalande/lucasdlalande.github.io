@@ -1,0 +1,213 @@
+#music-player {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+
+.song-header {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+/* cover image song */
+#song-image {
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+  flex-shrink: 0;
+}
+
+#song-info {
+  flex: 1;
+  min-width: 0;
+  color: var(--market-text);
+}
+
+#song-name {
+  font-size: 1.7em;
+  opacity: 0.9;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+#song-artist {
+  font-size: 1.2em;
+  opacity: 0.7;
+}
+
+#music-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5px;
+  gap: 20px;
+  color: var(--market-text);
+}
+
+#slider-song {
+  accent-color: var(--market-text);
+  border-radius: 10px;
+  margin-top: 5px;
+  width:100%;
+  margin: 0 auto;
+  transition: accent-color 0.2s ease;
+}
+
+#slider-song:hover {
+  accent-color: var(--market-accent);
+}
+
+/* card */
+.player-card {
+  background: var(--market-card-bg);
+  width: 330px;
+  border-radius: 8px; /* border corners radius */
+  box-shadow: 1px 1px 4px var(--market-text); /* rgba(1,1,1,.5); /* card shadows */
+  padding: 15px; /* spacing between content and borders */
+}
+
+/* buttons interactivity */
+#music-buttons i {
+  transition: transform 0.1s ease,
+              opacity 0.1s ease;
+}
+
+#prev-song, #next-song {
+  opacity: 0.8;
+}
+
+#repeat-song, #shuffle-song {
+  opacity: 0.5;
+}
+
+#music-buttons i:hover {
+  transform: scale(1.02);
+  opacity: 1;
+  cursor: pointer;
+}
+
+#repeat-song.repeat-active, #shuffle-song.shuffle-active {
+  color: var(--market-accent);
+  opacity: 1;
+}
+
+/* song list */
+.song-list {
+  width: 330px !important;
+}
+
+.song-list .track-title {
+  color: var(--market-text);
+}
+
+.track-number, .track-time, .track-artist {
+  color: var(--market-text);
+  opacity:0.6;
+}
+
+th {
+  padding-bottom: 10px;
+  font-weight: 600;
+}
+
+td {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+thead {
+  border-bottom: 1px solid var(--market-accent-border);
+}
+
+/* click on songs of the list */
+.click-song {
+  transition: background-color 0.1s ease;
+}
+
+.click-song .track-number, .click-song .track-artist, .click-song .track-time, .click-song .play-symbol, .click-song .pause-symbol {
+  transition: opacity 0.1s ease;
+}
+
+.click-song .number-play {
+  position: relative;
+}
+
+.click-song .track-number, .click-song .play-symbol, .click-song .pause-symbol {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.click-song .play-symbol, .click-song .pause-symbol {
+  opacity: 0;
+  transition: opacity 0.1s ease;
+  color: var(--market-text);
+}
+
+.click-song:hover{
+  cursor: pointer;
+  background-color: var(--market-background-songlist);
+}
+
+.click-song:hover .track-artist, .click-song:hover .track-time, .click-song:hover .play-symbol {
+  opacity: 1;
+}
+
+.click-song:hover .track-number {
+  opacity: 0;
+}
+
+.click-song.song-active {
+  background-color: var(--market-background-songlist-active);
+}
+
+.click-song.song-active .play-symbol {
+  opacity: 0;
+}
+
+.click-song.song-active .pause-symbol.is-visible {
+  opacity: 1;
+}
+
+.click-song.song-active .play-symbol.is-visible {
+  opacity: 1;
+}
+
+.click-song.song-active .pause-symbol {
+  opacity: 0;
+}
+
+.click-song.song-active .track-number {
+  opacity: 0;
+}
+
+.click-song.song-active .track-artist, .click-song.song-active .track-time {
+  opacity: 1;
+}
+
+/* album cover */
+.song-image-cover {
+  height: 330px;
+  width: 330px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.pastille {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+}
+
+.color-text {
+  color: var(--market-text);
+}
+
+.opacity-text {
+  opacity: 0.7;
+  font-weight: 500 !important;
+}

@@ -1,0 +1,34 @@
+---
+title: ""
+---
+:::{.column-page}
+<nav aria-label="Breadcrumb" class="breadcrumb">
+  <ol>
+    <li><a href="/index.qmd">Home</a></li>
+    <li><a href="/Projects/Projects.qmd">Projects</a></li>
+    <li><span aria-current="page">Asian elephants</span></li>
+  </ol>
+</nav>
+
+<h1 style="text-align:center;">
+Early-life social environment, senescence and Asian elephants
+</h1>
+
+<h3 style="text-align: center;">
+Studying body mass senescence in a semi-captive population of Asian elephants
+<span style="font-weight:normal">
+<p style="color:grey; text-align:center;">
+2020</p></span></h3>
+<center>
+![](../assets/images/elephant_black.png){width="50%" .light-image}</center>
+<center>![](../assets/images/elephant_white.png){width="50%" .dark-image}</center>
+
+I completed my Master's thesis at the Department of Biology at the University of Turku, Finland in 2020. I was part of the [Myanmar Timber Elephant Project](https://elephant-project.science/){.text-link} to describe sex-specific body mass ageing in Asian elephants (*Elephas maximus*). This work was possible thanks to the work of researchers, veterinarians, technicians, volunteers and locals both in Finland and in Myanmar.
+
+The population is a semi-captive population consisting of around 3000 individually marked elephants owned by the government-run Myanma Timber Enterprise (MTE). For more than a century, individual information is recorded for each elephant (date and place of birth and death, morphological measures, biological sampling, maternal-lineage pedigree, ...). This is the world's largest database on Asian elephants, providing a unique opportunity to explore how traits vary throughout life.
+
+The results of this work have been published in [Journal of Evolutionary Biology](https://doi.org/10.1111/jeb.14008){.text-link}. We found evidence of sex-specific body mass ageing trajectories: adult males gained weight up to the age of 48 years old, followed by a decrease in body mass until natural death. In contrast, adult females gained body mass with age until a body mass decline in the last year of life. Such patterns are consistent with the theories of ageing positing that the sex with more intense intrasexual competition should display earlier and/or a steeper rate of decline.
+
+Additionally, I took advantage of this time to write my first review work as part of my Master's thesis. This work reviewed the associations between sociality and senescence patterns in mammals (unpublished) and can be accessed here:
+[Social factors and patterns of senescence in mammals: A review.](../assets/pdfs/Lalande_literature_review_m2bewm.pdf){.text-link}
+:::

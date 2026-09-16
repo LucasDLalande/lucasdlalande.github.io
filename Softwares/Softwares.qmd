@@ -1,0 +1,52 @@
+---
+title: ""
+---
+:::{.column-page}
+<nav aria-label="Breadcrumb" class="breadcrumb">
+  <ol>
+    <li><a href="/index.qmd">Home</a></li>
+    <li><span aria-current="page">Softwares</span></li>
+  </ol>
+</nav>
+
+# Softwares
+
+Check out the small R packages I am developing!
+:::
+
+<div class="column-screen-inset">
+:::::: columns
+::: {.column width="2%"}
+:::
+
+::: {.column .package-card width="47%"}
+#### [**conwaysGoL**](../Softwares/conwaysGoL.qmd){.card-link}
+
+[![](../assets/gifs/conway.gif){width="100%" height="170px" style="object-fit:cover;"}](../Softwares/conwaysGoL.qmd){.card-link}
+
+An easy-to-handle Conway’s Game of Life simulator for R
+
+<p style="text-align: right;">
+[**View source code**](https://github.com/LucasDLalande/conwaysGoL){.button}
+</p>
+:::
+
+::: {.column width="2%"}
+:::
+
+::: {.column .package-card width="47%"}
+#### [**selectools**](../Softwares/selectools.qmd){.card-link}
+
+[![](../assets/gifs/modelselection.gif){width="100%" height="170px" style="object-fit: cover;"}](../Softwares/selectools.qmd){.card-link}
+
+A facilitating model selection procedure
+
+<p style="text-align: right;">
+[**View source code**](https://github.com/LucasDLalande/selectools){.button}
+</p>
+:::
+
+::: {.column width="2%"}
+:::
+::::::
+</div>

@@ -1,0 +1,28 @@
+/* BUTTON LINKS */
+/* buttons */
+.button {
+  background: var(--market-primary);/* button bg color */
+  color: var(--market-background); /* hypertext link within box has the same color as other texts */
+  border-radius: 10px; /* border corners radius */
+  border: 1.5px solid var(--market-primary); /* border color and type */
+  
+  padding: 10px 15px; /* text spacing from borders */
+  
+  transition: background 0.2s ease,
+              color 0.2s ease,
+              border 0.2s ease; /* transition settings */
+  
+  text-decoration: none; /* hypertext link within box is not underlined */
+
+  display: inline-block;
+  
+  width: fit-content; /* width shrinks to fit content */
+}
+
+/* behavior when hovered */
+.button:hover {
+  background: var(--market-background);
+  color: var(--market-primary); /* slight upper-right movement */
+  border: 1.5px solid var(--market-primary); /* border color and type */
+}
+

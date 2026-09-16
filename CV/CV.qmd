@@ -1,0 +1,112 @@
+---
+title: ""
+---
+:::{.column-page}
+<nav aria-label="Breadcrumb" class="breadcrumb">
+  <ol>
+    <li><a href="/index.qmd">Home</a></li>
+    <li><span aria-current="page">CV</span></li>
+  </ol>
+</nav>
+
+# My CV
+<br>
+
+<p style="text-align:center;">
+[**Complete resume**](../assets/pdfs/CV.pdf){.button}
+</p>
+<br>
+<br>
+
+## Education and related research experiences
+
+-   <big>*2020 - 2023*</big>
+
+| **Ph.D. in Ecophysiology** 
+| Stress, Health and Senescence in a long-lived mammal, the roe deer (*Capreolus capreolus*) 
+|   <small>*Laboratory of Biometry and Evolutionary Biologie (LBBBE UMR5558) - Université Claude Bernard Lyon 1* 
+|    Supervised by Emmanuelle Gilot-Fromont and Pauline Vuarin</small>
+<br>
+During my Ph.D, I have explored the relationships between chronic
+stress, as measured by glucocorticoid metabolites, and the senescence of
+health- and fitness-related traits in two populations of roe deer,
+followed longitudinally by capture-mark-recapture programs.
+
+Briefly, I described immunosenescence ans haematological senescence in
+those populations, and I investigated whether juvenile and adult
+glucocorticoid levels modulated patterns of senescence and affected body
+mass, immunity and haematological parameters value. Learn more about my
+Ph.D. work by reading the [project's details](../Projects/Stress.qmd){.text-link} or [related publications](../Publications/Publications.qmd){.text-link}.
+
+-   <big>*2018 - 2020*</big>
+
+| **Master Behavioural Ecology and Wildife Management**
+|   <small>*Université Bourgogne-Franche-Comté, Dijon*</small>
+<br>
+During this master specialised in Behavioural Ecology, Evolution and Conservation issues, I had the opportunity to conduct two research projects:
+
+|     1. **Myanmar Timber Elephant Project**
+|         <small>*Department of Biology - University of Turku, Finland*
+|          Supervised by Virpi Lummaa, Michael Briga and Vérane Berger</small>
+<br>
+In 2020, during the pandemic, I exploited the unique database of the [Myanmar Timber Elephant Project](https://elephant-project.science/){.text-link}. I described sex-specific body mass senescence in adult Asian elephants (*Elephas maximus*). For more details about the database and results, don't hesitate to have a look at the [project's details](../Projects/Elephants.qmd){.text-link} or [related publications](../Publications/Publications.qmd){.text-link}.
+
+|     2. **Ecology of fear in gammarids**
+|       <small>*Biogéosciences (UMR6282) - Université Bourgogne-Franche-Comté, Dijon*
+|        Supervised by Marie-Jeanne Perrot-Minot and Marion Fayard</small>
+<br>
+In 2019, I studied the behavioural responses (refuge use, phototaxis, reproduction) to predatory pressure in gammarids (*Gammarus fossarum*) collected in 15 natural populations across Burgundy. Check out the details [here](../Projects/Gammarids.qmd){.text-link}.
+
+## Other research experience
+-   <big>*2023*</big>
+
+| **Postdoctoral position in epidemiology**
+|   <small>*LabEx ECOFECT - Comue Université de Lyon*
+|    Supervised by Emmanuelle Gilot-Fromont, Gilles Bourgoin and Dominique Pontier</small>
+<br>
+Following my Ph.D., I worked as a postdoctoral fellow within the LabEx ECOFECT to investigate the presence and prevalence of SARS-CoV-2 in several natural populations of roe deer and other deer species across France, in regular contact with humans, in particular during scientific manipulations or hunting. Check out the [details of the project](../Projects/Covid.qmd){.text-link} or the resulting [publication](../Publications/Publications.qmd){.text-link}.
+
+## Teaching
+<big>*Total amount of university-level teaching: *ca. *600h.*</big>
+
+During my Ph.D. I provided **192h** of teachings to first-year student at the IUT Biology, Lyon 1.
+Most hours were dedicated to biostatistics, mixing lessons, tutorials and practicals using R, but included also animal biology practicals (digestive tract dissection in mice) and transversal teachings (scientific communication, professional projects).
+
+After my Ph.D. and postdoc, I was recruited as a full-time teacher at the Institut National Universitaire Champollion, Albi (University of Toulouse, France). I taught mathematics, biostatistics, ecology, ethology, phylogeny, plant and animal physiology and biology, field studies in human-disturbed environments to bachelor students (1st to 3rd years). I completed **400h** of teachings during that year, whether during lessons, tutorials or practicals and field work.
+
+These experiences convinced me that my future professional career will involved both research and teaching, as I truly believe that education is the most efficient way to make things changed at all levels.
+
+## Programming experiences
+For the past year, I have developed a strong interest towards programming. I am willing to improve my computational skills to develop new abilities to answer ecology, physiology, population biology and evolution related questions.
+
+To do so, I have developed R packages aiming at facilitating model selection procedures for senescence and ageing studies ([see selectools package](../Softwares/selectools.qmd){.text-link}) and simulating the Conway's Game of Life ([see conwaysGoL package](../Softwares/conwaysGoL.qmd){.text-link}).
+
+This allows me to gain programming skills and to explore new approaches in computational biology and ecology, while toying with fun concepts. For example, `conwaysGoL` allowed me to explore simulation approaches in biology.
+
+Next, I am willing to pursue this programming travel by exploring Graph Theory and Network Sciences by developing a program to simulate friendship networks.
+
+## Scientific evaluation activities
+
+**Review activity for:**
+
+- Journal of Inflammation Research
+- Oikos
+- Journal of Mammalogy
+- Scientific Reports
+
+## Scientific communication/vulgarisation
+- <big>*2023*</big>
+
+| **AXXIS - Bureau des Possibles, Lyon**
+| Scientific communication to children - The scientific method<br>
+During this event, doctoral students communicated how science works to 6-8 years old, explaining the scientific methods by the mean of manual and critical thinking activities such as manipulating electrical circuit (in a safe way, obviously, at least not too many children were injured) or debunking fake scientific news.
+
+## Skills and certifications
+
+- **Formal training in Bioinformatics and Genomics**, *Université Lyon 1 (2026)* - **NGS data analyses**: QC, alignment, variant calling, visualisation, splicing quantification, differential analyses, genome browser
+- **Animal experimentation certificate (Designer level)**, *IUT Génie Biologie Lyon 1 (2021)*
+- **One-Star Diver** (supervised diving 20m) (2025) - *planning on pursuing to 2-Stars Diver soon*
+- **Field work**: telemetry, animal handling, biological sampling
+- **Statistics**: R, longitudinal datasets, database, GLMM, path analyses
+- **Programming**: Nextflow, Python, R package development, bash, MySQL
+:::

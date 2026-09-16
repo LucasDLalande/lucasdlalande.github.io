@@ -1,0 +1,538 @@
+/* CSS STYLES */
+
+/* FONT */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+/* COLOR PALETTE */
+:root {
+  --market-text: #0f1405;
+  --market-background: #f7fbef;
+  --market-primary: #6d81d9;
+  --market-secondary: #92d1e3;
+  --market-accent: #6d81d9;
+  
+  --market-background-card: color-mix(in srgb, var(--market-background) 90%, black);
+  
+  --market-text-hover: color-mix(in srgb, var(--market-text) 80%, white);
+  --market-background-card-hover: color-mix(in srgb, var(--market-background) 80%, black);
+  --market-primary-hover: #3450cb;
+  --market-secondary-hover: #2a88a2;
+  --market-accent-hover: #3450cb;
+  
+  --market-background-songlist: color-mix(in srgb, var(--market-background) 90%, black);
+  --market-background-songlist-active: color-mix(in srgb, var(--market-background) 80%, black);
+}
+
+{
+  --accent-50: #fef9e7;
+  --accent-100: #fdf4ce;
+  --accent-200: #fbe89d;
+  --accent-300: #f9dd6c;
+  --accent-400: #f7d13b;
+  --accent-500: #f5c60a;
+  --accent-600: #c49e08;
+  --accent-700: #937706;
+  --accent-800: #624f04;
+  --accent-900: #312802;
+  --accent-950: #181401;
+}
+
+
+:root[data-theme="light"] {
+  --text-50: #f5faeb;
+  --text-100: #ebf5d6;
+  --text-200: #d6ebad;
+  --text-300: #c2e085;
+  --text-400: #add65c;
+  --text-500: #99cc33;
+  --text-600: #7aa329;
+  --text-700: #5c7a1f;
+  --text-800: #3d5214;
+  --text-900: #1f290a;
+  --text-950: #0f1405;
+
+  --background-50: #f5faeb;
+  --background-100: #ebf5d6;
+  --background-200: #d6ebad;
+  --background-300: #c2e085;
+  --background-400: #add65c;
+  --background-500: #99cc33;
+  --background-600: #7aa329;
+  --background-700: #5c7a1f;
+  --background-800: #3d5214;
+  --background-900: #1f290a;
+  --background-950: #0f1405;
+
+  --primary-50: #f5faeb;
+  --primary-100: #eaf4d7;
+  --primary-200: #d6eaae;
+  --primary-300: #c1df86;
+  --primary-400: #add45e;
+  --primary-500: #98c936;
+  --primary-600: #7aa12b;
+  --primary-700: #5b7920;
+  --primary-800: #3d5115;
+  --primary-900: #1e280b;
+  --primary-950: #0f1405;
+
+  --secondary-50: #ebf7fa;
+  --secondary-100: #d6eef5;
+  --secondary-200: #aeddea;
+  --secondary-300: #85cce0;
+  --secondary-400: #5dbbd5;
+  --secondary-500: #34aacb;
+  --secondary-600: #2a88a2;
+  --secondary-700: #1f667a;
+  --secondary-800: #154451;
+  --secondary-900: #0a2229;
+  --secondary-950: #051114;
+
+  --accent-50: #ebedfa;
+  --accent-100: #d6dcf5;
+  --accent-200: #aeb9ea;
+  --accent-300: #8596e0;
+  --accent-400: #5d73d5;
+  --accent-500: #3450cb;
+  --accent-600: #2a40a2;
+  --accent-700: #1f307a;
+  --accent-800: #152051;
+  --accent-900: #0a1029;
+  --accent-950: #050814;
+
+}
+
+body.dark-mode {
+  --market-text: #f5faeb;
+  --market-background: #0c1004;
+  --market-primary: #92c133;
+  --market-secondary: #1c5c6d;
+  --market-accent: #263992;
+  
+  --market-background-card: #262828;
+  
+  --market-text-hover: color-mix(in srgb, var(--market-text) 85%, white);
+  --market-background-card-hover: #3D3F3F;
+  --market-primary-hover: #ffca20;
+  --market-secondary-hover: #916546;
+  --market-accent-hover: #99cbb2;
+  
+  --market-background-songlist: #262828;
+  --market-background-songlist-active: #3D3F3F;
+}
+
+/*:root {
+  --market-text: #000000;
+  --market-background: #f4F5F6;
+  --market-primary: #DF9D01;
+  --market-secondary: #CCAB94;
+  --market-accent: #5A8169;
+  
+  --market-background-card: #c1c2c350;
+  
+  --market-text-hover: color-mix(in srgb, var(--market-text) 85%, white);
+  --market-background-card-hover: #8e8f9070;
+  --market-primary-hover: #ac7900;
+  --market-secondary-hover: #99806f;
+  --market-accent-hover: #364d3f;
+  
+  --market-background-songlist: #c1c2c350;
+  --market-background-songlist-active: #8e8f9070;
+}
+
+body.dark-mode {
+  --market-text: #fFFFFF;
+  --market-background: #090A0B;
+  --market-primary: #febb20;
+  --market-secondary: #6B4B34;
+  --market-accent: #7DA591;
+  
+  --market-background-card: #262828;
+  
+  --market-text-hover: color-mix(in srgb, var(--market-text) 85%, white);
+  --market-background-card-hover: #3D3F3F;
+  --market-primary-hover: #ffca20;
+  --market-secondary-hover: #916546;
+  --market-accent-hover: #99cbb2;
+  
+  --market-background-songlist: #262828;
+  --market-background-songlist-active: #3D3F3F;
+}*/
+
+/*:root {
+  --market-text: #19160b;
+  --market-background: #fefdfb;
+  --market-primary: #cea503;
+  --market-secondary: #99c6d6;
+  --market-accent: #827fcc;
+  
+  --market-text-hover: color-mix(in srgb, var(--market-text) 85%, white);
+  --market-background-card: color-mix(in srgb, var(--market-background) 95%, black);
+  --market-primary-hover: color-mix(in srgb, var(--market-primary) 85%, white);
+  --market-secondary-hover: #3a7a92;
+  --market-accent-hover: #b8b6e2;
+  
+  --market-background-songlist: #f5ebd650;
+  --market-background-songlist-active: #f5ebd690;
+  
+  --shadow: color-mix(in srgb, var(--market-text) 15%, transparent);
+}
+
+body.dark-mode {
+  --market-text: #f4f1e6;
+  --market-background: #040301;
+  --market-primary: #fcd331;
+  --market-secondary: #295666;
+  --market-accent: #353380;
+  
+  --market-text-hover: color-mix(in srgb, var(--market-text) 85%, white);
+  --market-background-card: color-mix(in srgb, var(--market-background) 85%, white);
+  --market-primary-hover: color-mix(in srgb, var(--market-primary) 85%, white);
+  --market-secondary-hover: #92c2d3;
+  --market-accent-hover: #a6a4db;
+  
+  --market-background-songlist: #523d1450;
+  --market-background-songlist-active: #523d1490;
+}*/
+
+
+
+/*:root {
+  --market-text: #081717;
+  --market-background: #f3fbfb;
+  --market-primary: #205e60;
+  --market-secondary: #8caad9;
+  --market-accent: #3943ac;
+  
+  --market-text-hover: #0d2626;
+  --market-background-card: #ffffff;
+  --market-primary-hover: #2a7b7e;
+  --market-secondary-hover: #4071bf;
+  --market-accent-hover: #666ecc;
+  
+  --market-text-breadcrumb: #0d2626;
+  --market-text-buttons: #f3fbfb;
+
+  
+  --market-background-songlist: #b4e4e450;
+  --market-background-songlist-active: #b4e4e490;
+  --market-background-code: #f3fbfb;
+  --market-background-buttons: #040b0b;
+  
+  --market-primary-code: #205e6090;
+  --market-inlinecode-bg: #d9e3f250;
+  
+  --market-accent-border: #3943ac80;
+
+  --market-accent-code: #3943ac90;
+  
+
+  --market-links: #40bbbf;
+}
+
+body.dark-mode {
+  --market-text: #e8f7f7;
+  --market-background: #040b0b;
+  --market-primary: #9fdddf;
+  --market-secondary: #264473;
+  --market-accent: #535cc6;
+  
+  --market-text-hover: #d9f2f2;
+  --market-background-card: #000000;
+  --market-primary-hover: #b3e4e6;
+  --market-secondary-hover: #4071bf;
+  --market-accent-hover: #8c93d9;
+  
+  --market-text-breadcrumb: #d9f2f2;
+  --market-text-buttons: #040b0b;
+
+  --market-background-songlist: #1b4b4b50;
+  --market-background-songlist-active: #1b4b4b90;
+  --market-background-code: #040b0b80;
+  --market-background-buttons: #f3fbfb;
+
+  --market-primary-code: #9fdddf99;
+  --market-inlinecode-bg: #0d1726;
+  
+  --market-accent-border: #535cc680;
+
+  --market-accent-code: #535cc6;
+  
+
+  --market-links: #c6ebec;
+}*/
+
+/* LAYOUT */
+/* body */
+body {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  background: var(--market-background);
+  color: var(--market-text);
+}
+
+/* titles */
+h1, h2, h3, h4, h5 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+}
+
+/* title sizes*/
+html {font-size: 100%;} /* 16px */
+h1 {font-size: 4.210rem; /* 67.36px */}
+h2 {font-size: 3.158rem; /* 50.56px */}
+h3 {font-size: 2.369rem; /* 37.92px */}
+h4 {font-size: 1.777rem; /* 28.48px */}
+h5 {font-size: 1.333rem; /* 21.28px */}
+small {font-size: 0.750rem; /* 12px */}
+
+/* paragraphs */
+p {
+  text-align: justify;
+}
+
+/* lists */
+li {
+  text-align: justify;
+}
+
+/* justified text word management */
+.word {
+  text-justify: inter-word;
+}
+
+/* CODE */
+code {
+  color: var(--market-accent-code);
+  background: var(--market-inlinecode-bg) !important;
+  border-radius: 4px;
+}
+
+div.sourceCode {
+  overflow: hidden;
+  background: var(--market-background-code) !important;
+}
+
+pre.sourceCode code {
+  background: var(--market-background-code) !important;
+  opacity: 1;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+/* NAVIGATION BAR */
+/* nav bar*/
+.navbar {
+  font-family: 'Inter', sans-serif;
+  background: var(--market-background);
+  border-bottom: 2px solid var(--market-secondary);
+  display: flex !important;
+  align-items: center;
+}
+
+.navbar-container {
+  display: flex !important;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.navbar-brand {
+  flex: 0 0 auto;
+}
+
+.navbar-nav {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.quarto-navbar-tools {
+  flex: 0 0 auto;
+}
+
+/* nav bar title */
+.navbar-title {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: var(--market-accent) !important;
+    transition: color 0.2s ease;
+}
+
+.navbar-title:hover{
+  color: var(--market-accent-hover) !important;
+}
+
+/* nav bar links */
+.nav-link {
+  color: var(--market-text) !important;
+  background: transparent;
+  border-radius: 10px;
+  transition: color 0.3s ease,
+              background 0.3s ease;
+}
+
+/* nav bar link behaviour when hovered */
+.nav-link:hover {
+  color: var(--market-accent-hover) !important;
+  background: var(--market-background-songlist);
+
+}
+
+/* nav bar icons */
+.quarto-navigation-tool {
+  display: inline-flex;
+  align-items: center;
+  justify-content!importan: center;
+  font-size: 1.3rem;
+  color: var(--market-text) !important;
+  opacity: 0.7 !important;
+  transition: opacity 0.2s ease,
+              transform 0.2s ease,
+              color 0.2s ease;
+  transform-origin: center;
+}
+
+/* nav bar icons behaviour when hovered */
+.quarto-navigation-tool:hover {
+  opacity: 1 !important;
+  transform: scale(1.2) !important;
+  color: var(--market-accent-hover) !important;
+}
+
+.aa-SubmitIcon {
+  font-size: 1.3rem !important;
+  fill: var(--market-text) !important;
+  opacity: 0.7 !important;
+  transition: opacity 0.2s ease,
+              transform 0.2s ease,
+              color 0.2s ease;
+}
+
+.aa-SubmitIcon:hover {
+  opacity: 1 !important;
+  transform: scale(1.2) !important;
+  fill: var(--market-accent-hover) !important;
+}
+
+/* BREADCRUMBS */
+/* breadcrumbs */
+.breadcrumb {
+  margin-top: -30px;
+  padding-top: 0;
+  display: flex;
+  justify-content: center;
+}
+
+/* breadcrumb lists */
+.breadcrumb ol {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  align-items: end;
+}
+
+/* links before current page */
+.breadcrumb li:not(:last-child)::after {
+  display: inline-block;
+  color: var(--market-secondary);
+  margin: 0 0.6rem;
+  content: ">";
+  opacity: 0.7;
+}
+
+/* layout links breadcrumbs */
+.breadcrumb a {
+  color: var(--market-secondary);
+  text-decoration: none;
+  font-weight: 0.9rem;
+}
+
+/* behaviour when hovered */
+.breadcrumb a:hover {
+  color: var(--market-secondary-hover);
+  text-decoration: underline;
+}
+
+/* layout current page */
+.breadcrumb span[aria-current="page"] {
+  color: var(--market-text);
+  opacity: 0.8;
+}
+
+/* PAGE FOOTER */
+/* footer */
+.nav-footer {
+  border-top: 2px solid var(--market-secondary);
+  background: var(--market-background) !important;
+  color: var(--market-text) !important;
+}
+
+/* footer content */
+.nav-footer-left,
+.nav-footer-center,
+.nav-footer-right {
+  font-weight: 500;
+  color: var(--market-text) !important;
+  opacity: 0.8;
+}
+
+/* footer links */
+.nav-footer a {
+  color: var(--market-accent); 
+}
+
+/* footer links behaviour when hovered */
+.nav-footer a:hover {
+  color: var(--market-accent-hover); 
+}
+
+/* footer icons */
+.nav-footer .bi {
+  font-size: 1.2rem; /* taille */
+  color: var(--market-text) !important;
+  opacity: 0.7;
+  transition: opacity 0.2s ease,
+              transform 0.2s ease,
+              color 0.2s ease;
+}
+
+/* footer icons behaviour when hovered */
+.nav-footer a:hover .bi {
+  opacity: 1;
+  color: var(--market-accent-hover) !important;
+  transform: scale(1.2) !important;
+}
+
+/* BACK TO TOP */
+/* back to top button */
+#quarto-back-to-top {
+  border-radius: 50%;
+  font-size: 0;
+  background: var(--market-primary);
+  color: var(--market-background);
+  transition: background 0.2s ease,
+              color 0.2s ease;
+}
+
+/* back to top arrow*/
+#quarto-back-to-top i {
+  font-size: 1.2rem;
+}
+
+/* back to top button behaviour when hovered */
+#quarto-back-to-top:hover {
+  background: var(--market-background);
+  color: var(--market-primary);
+  border: 1px solid var(--market-primary);
+}
+
+/* IMAGE JOLLA THEME ABOUT */
+.about-image {
+  width: 20em !important;  
+  height: 20em !important;
+}
+
