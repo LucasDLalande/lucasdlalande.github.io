@@ -1,0 +1,92 @@
+/* COVER PICTURE ANIMATION */
+/* A PNG hides text and move out, revealing text after mouse passes on the image */
+/* container settings */
+.cover-container {
+  position: relative; /* reference container for absolutely positioned children: absolute children are positioned relatively to this container */
+  min-height: 500px; /* reserved height for image */
+}
+
+/* cover image settings */
+.cover-pic-left, .cover-pic-right {
+  -webkit-mask-size: 200% 100%; /* twice as large as the image */
+  mask-size: 200% 100%;
+  transition: transform 0.5s ease, 
+              mask-position 0.5s ease, 
+              -webkit-mask-position 0.5s ease; /* mask transition delay */
+  position: absolute; /* removed from normal layout flow and positioned relative to container */
+  top: 0; /* image position */
+  left: 0; /* image position */
+  width: 100%; /* image size */
+  height: 100%; /* image size */
+  object-fit: contain; /* image fills container while preserving aspect ratio */
+  z-index: 100; /* z position */
+}
+
+.cover-pic-left {
+  -webkit-mask-image: linear-gradient(to right, black 50%, transparent 100%); /* a mask with a gradient of opacity */
+  mask-image: linear-gradient(to right, black 50%, transparent 100%);
+  -webkit-mask-position: left; /* mask position */
+  mask-position: left;
+}
+
+.cover-pic-right {
+  -webkit-mask-image: linear-gradient(to left, black 50%, transparent 100%); /* a mask with a gradient of opacity */
+  mask-image: linear-gradient(to left, black 50%, transparent 100%);
+  -webkit-mask-position: right; /* mask position */
+  mask-position: right;
+}
+
+.cover-pic-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden; /* content outside container boundaries is clipped */
+}
+
+/* mask and image behavior when mouse passes on the image */
+/* linked to cover-animation.js script */
+/* to the left */
+.cover-pic-left.moved {
+  transform: translate(-160px, 0px); /* move to the left by 200px */
+  -webkit-mask-position: right; /* new mask position */
+  mask-position: right;
+  z-index: 0;
+}
+
+/* to the right */
+.cover-pic-right.moved {
+  transform: translate(160px, 0px); /* move to the left by 200px */
+  -webkit-mask-position: left; /* new mask position */
+  mask-position: left;
+  z-index: 0;
+}
+
+/* properties of hidden text */
+.cover-text-stress, .cover-text-eleph, .cover-text-covid {
+  position: absolute; /* removed from normal layout flow and positioned relative to container */
+  z-index: 1;
+  top: 50%; /* text position: the top part of the text is 50% below top */
+  transform: translateY(-50%); /* text position: top part of the text heightened by 50% of the distance from the top, so perfectly centered vertically */
+  opacity: 0; /* initially transparent */
+  transition: opacity 0.6s ease; /* opacity transition */
+  text-align: right; /* text aligned to the right */
+}
+
+/* specific properties for stress project and elephant project */
+.cover-text-stress { 
+  left: 60%; /* left margin placed 60% further from default left margin */
+}
+.cover-text-eleph { 
+  left: 50%; /* left margin placed 50% further from default left margin */
+}
+.cover-text-covid { 
+  right: 60%; /* left margin placed 50% further from default left margin */
+}
+
+/* Text opacity when image moves */
+/* linked to cover-animation.js script */
+.cover-text-stress.visible, .cover-text-eleph.visible, .cover-text-covid.visible {
+  opacity: 1; /* opacity set to 1 - non transparent */
+}

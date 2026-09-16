@@ -1,0 +1,51 @@
+/* LINKS */
+/* in-text links */
+.text-link {
+  text-decoration: none;
+  color: var(--market-primary);
+  transition: color 0.2s ease;
+  font-weight: 500;
+  
+}
+
+/* in-text behaviour when hovered */
+.text-link:hover {
+  color: var(--market-primary-hover);
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+}
+
+/* sober links for cards */
+.card-link {
+  text-decoration: none; /* hypertext link within box is not underlined */
+  color: var(--market-text); /* hypertext link within box has the same color as other texts */
+  transition: color 0.2s ease; /* transition settings */
+}
+
+/* sober links behaviors when hovered */
+.card-link:hover {
+  color: var(--market-text-hover); /* opacity decrease */
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+}
+
+.about-link {
+  font-size: 1em !important;
+  background: #cda303;/* button bg color */
+  color: var(--market-background) !important; /* hypertext link within box has the same color as other texts */
+  border-radius: 10px !important;
+  border: 1.5px solid #cda303 !important; /* border color and type */
+  
+  padding: 5px 15px !important; /* text spacing from borders */
+  
+  transition: background 0.2s ease,
+              color 0.2s ease,
+              border 0.2s ease; /* transition settings */
+}
+
+/* behaviour when hovered */
+.about-link:hover {
+  background: var(--market-background);
+  color: #cda303 !important; /* slight upper-right movement */
+  border: 1.5px solid #cda303 !important; /* border color and type */
+}

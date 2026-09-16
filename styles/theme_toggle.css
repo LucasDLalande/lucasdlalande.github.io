@@ -1,0 +1,35 @@
+/* TOGGLE SWITCH LIGHT/DARK MODE */
+/* toggle switch */
+#theme-toggle {
+  position: fixed;
+  bottom: 70px;
+  left: 10px;
+  z-index: 10000;
+  background: transparent;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+/* toggle icons */
+#theme-icon {
+  width: 26px;
+  height: 26px;
+  opacity: 0.7;
+  transition:
+    transform 1s ease,
+    opacity 0.3s ease,
+    color 0.3s ease;
+  fill: var(--market-text);
+}
+
+/* behaviour when hovered */
+#theme-toggle:hover #theme-icon {
+  transform: rotate(360deg);
+  color: var(--market-accent-hover);
+  opacity: 1;
+}
+
+
+
+
+

@@ -35,7 +35,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
@@ -70,10 +69,18 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="styles/styles.css">
+<link rel="stylesheet" href="styles/theme_toggle.css">
+<link rel="stylesheet" href="styles/links.css">
+<link rel="stylesheet" href="styles/buttons.css">
+<link rel="stylesheet" href="styles/package_cards.css">
+<link rel="stylesheet" href="styles/tooltip.css">
+<link rel="stylesheet" href="styles/cover.css">
+<link rel="stylesheet" href="styles/images-theme.css">
+<link rel="stylesheet" href="styles/music-player.css">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -89,26 +96,26 @@ ul.task-list li input[type="checkbox"] {
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll me-auto">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./home.html"> 
-<span class="menu-text">Home</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./cv.html"> 
+    <a class="nav-link" href="./CV/CV.html"> 
 <span class="menu-text">CV</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./publications.html"> 
+    <a class="nav-link" href="./Publications/Publications.html"> 
 <span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./projects.html"> 
+    <a class="nav-link" href="./Projects/Projects.html"> 
 <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./software.html"> 
-<span class="menu-text">Software</span></a>
+    <a class="nav-link" href="./Softwares/Softwares.html"> 
+<span class="menu-text">Softwares</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./Music/Music.html"> 
+<span class="menu-text">Music</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link active" href="./about.html" aria-current="page"> 
@@ -116,7 +123,11 @@ ul.task-list li input[type="checkbox"] {
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
-            <div class="quarto-navbar-tools">
+            <div class="quarto-navbar-tools tools-wide">
+    <a href="https://github.com/LucasDLalande" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-github"></i></a>
+    <a href="mailto:lalande.luke@gmail.com" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-envelope"></i></a>
+    <a href="https://scholar.google.com/citations?user=wRv_T7sAAAAJ&amp;hl=en" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-bookmark"></i></a>
+    <a href="https://linktr.ee/bedmarket" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-music-note-beamed"></i></a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -125,55 +136,79 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#site-in-construction" id="toc-site-in-construction" class="nav-link active" data-scroll-target="#site-in-construction">/!&nbsp;Site in construction /!<br>
-  </a></li>
-  </ul>
-</nav>
-    </div>
+    
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">about</h1>
+
+
+
+<nav aria-label="Breadcrumb" class="breadcrumb" style="margin-top: -14px;">
+<ol>
+<li>
+<a href="./index.html">Home</a>
+</li>
+<li>
+<span aria-current="page">About</span>
+</li>
+</ol>
+</nav>
+<div class="quarto-about-jolla">
+  <img src="assets/images/photo_profile.jpeg" class="about-image
+  round " style="height: 15em; width: 15em;">
+ <header id="title-block-header" class="quarto-title-block"></header><div id="hero-heading">
+<center>
+If you’re looking for your <strong>next postdoctoral fellow</strong> or want more information about my cursus or my work, <strong>feel free to contact me</strong> in english or french, or check my socials!
+</center>
+</div> 
+  <hr class="about-sep">
+   <div class="about-links">
+  <a href="mailto:lalande.luke@gmail.com" class="about-link" rel="" target="">
+    <i class="bi bi-envelope"></i>
+     <span class="about-link-text">Mail</span>
+  </a>
+  <a href="https://github.com/LucasDLalande" class="about-link" rel="" target="">
+    <i class="bi bi-github"></i>
+     <span class="about-link-text">Github</span>
+  </a>
+  <a href="https://scholar.google.com/citations?user=wRv_T7sAAAAJ&amp;hl=en" class="about-link" rel="" target="">
+    <i class="bi bi-bookmark"></i>
+     <span class="about-link-text">Google Scholar</span>
+  </a>
+  <a href="https://linktr.ee/bedmarket" class="about-link" rel="" target="">
+    <i class="bi bi-music-note-beamed"></i>
+     <span class="about-link-text">Bed Market Linktree</span>
+  </a>
+</div>
 </div>
 
+<p><br> <br></p>
+<section id="credits" class="level2">
+<h2 data-anchor-id="credits">Credits</h2>
+<p>All images have been drawn by <strong>Laya Gil</strong>, except for the Asian elephant (<strong>Daniel Lalande</strong>) and the cortisol molecule (Lucas Lalande).</p>
+</section>
+<section id="license" class="level2">
+<h2 data-anchor-id="license">License</h2>
+<p>The <a href="https://github.com/LucasDLalande/lucasdlalande.github.io" class="text-link">source code</a> for this website is under the <strong>MIT License</strong>. All content (text, images) is under the <strong>CC-BY 4.0 license</strong>, except music which remains all rights reserved <strong>©Bed Market</strong>.</p>
 
-
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-
-</header>
-
-
-<section id="site-in-construction" class="level1">
-<h1>/!&nbsp;Site in construction /!<br>
-</h1>
 
 
 </section>
 
-</main> <!-- /main -->
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
+<button id="theme-toggle">
+
+  <img id="theme-icon" src="./assets/icons/moon.svg" alt="Theme toggle">
+
+</button>
+<script src="../scripts/cover-animation.js"></script>
+
+<script src="../scripts/theme-toggle.js"></script>
+
+<script src="../scripts/music-player.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer">
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
-    const icon = "";
-    const anchorJS = new window.AnchorJS();
-    anchorJS.options = {
-      placement: 'right',
-      icon: icon
-    };
-    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     
@@ -566,6 +601,44 @@ ul.task-list li input[type="checkbox"] {
   });
   </script>
 </div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>Copyright 2026, Lucas Lalande | <a href="https://github.com/LucasDLalande/lucasdlalande.github.io">Source code</a>: <a href="https://opensource.org/license/mit">MIT license</a>.</p>
+</div>   
+    <div class="nav-footer-center">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/LucasDLalande">
+      <i class="bi bi-github" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="mailto:lalande.luke@gmail.com">
+      <i class="bi bi-envelope" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://scholar.google.com/citations?user=wRv_T7sAAAAJ&amp;hl=en">
+      <i class="bi bi-bookmark" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://linktr.ee/bedmarket">
+      <i class="bi bi-music-note-beamed" role="img">
+</i> 
+    </a>
+  </li>  
+</ul>
+    </div>
+    <div class="nav-footer-right">
+<p>Text, images: <a href="https://creativecommons.org/licenses/by/4.0/deed.en">CC-BY 4.0</a> | Music: All rights reserved ©Bed Market.</p>
+</div>
+  </div>
+</footer>
 
 
 

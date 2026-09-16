@@ -1,0 +1,35 @@
+/* PACKAGE CARDS */
+/* boxes for packages visuals */
+.package-card {
+  background: var(--market-background);
+  border-radius: 10px; /* border corners radius */
+  padding: 15px; /* spacing between content and borders */
+  box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.06);
+  border: 1px solid transparent;
+  
+  transform: scale(0.99);
+  
+  transition: box-shadow 0.3s ease,
+              transform 0.3s ease,
+              z-index 0.3s ease,
+              background 0.3s ease,
+              border 0.3s ease; /* transition settings */
+  
+  position: relative; /* establishes positioning and stacking context */
+  
+  z-index: 1; /* stacking order: image displayed above overlay and text */
+}
+
+/* behavior when hovered */
+.package-card:hover {
+  transform: scale(1); /* slight upper-right movement */
+  z-index: 99999; /* hovered card displayed above neighboring cards */
+  box-shadow: 2px 2px 2px 3px rgba(0, 0, 0, 0.06);
+  border: 1px solid var(--market-secondary);
+}
+
+.package-card,
+.columns,
+.column {
+  overflow: visible !important; /* overflowing content is not clipped */
+}
